@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoIce</title>
+</head>
+
+<body>
+    <!-- Enter chat messages here -->
+    <form class="sub-container " id="join-form">
+        <h2>ROOMS</h2>
+
+        <input type="text" class="chat-input-name" id="name-input" placeholder="Name" required/>
+
+        <!-- select level -->
+
+        <label for="level-select">Choose a level:</label>
+        <select name="level" id="level-select" required>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+            <option value="pro">Pro</option>
+        </select>
+
+        <button id="join-button">Join Room</button>
+
+
+    </form>
+
+    <script src="lobby.js"></script>
+</body>
+
+</html>
